@@ -15,7 +15,7 @@
     font-weight: bold !important;
 }
 .nav li:hover {
-    font-size:18px !important;
+    font-size:18px;
     transition:all 0.5s;
 }
 
@@ -25,7 +25,8 @@
     background: url(../img/header.jpg) no-repeat;
     background-size: cover;
     padding-bottom: 300px;
-    color:#fff;
+    color: white;
+
 }
 .hero hr {
     width: 30px;
@@ -42,6 +43,7 @@
 }
 .hero .frase{
     padding-top: 200px;
+    color: white;
     
 }
 .hero  h1{
@@ -65,7 +67,7 @@
 
 /* Here starts section Services */
 .services {
-    margin-top: 60px;
+    padding-top: 60px;
 }
 .services p{
     color: darkgrey;
@@ -80,7 +82,4 @@
     color: tomato;
 }
 
-.row {
-    padding-right: 80px; 
-    padding-left: 80px;
-}
+
