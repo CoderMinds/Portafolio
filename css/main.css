@@ -58,7 +58,7 @@
 }
 
 .about h4{
-    color: #fff;  
+    color: #fff;
 }
 .line1 { 
     border-top: 2px solid #fff;
@@ -67,7 +67,9 @@
 
 /* Here starts section Services */
 .services {
-    padding-top: 60px;
+    padding:60px 30px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .services p{
     color: darkgrey;
