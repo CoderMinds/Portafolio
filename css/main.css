@@ -1,9 +1,5 @@
 /* Tu CSS va aqui */
 
-header {
-    background: url(../img/header.jpg) no-repeat;
-    background-size: cover;
-}
 .navbar {
     background: none;
     border: none;
@@ -26,7 +22,9 @@ header {
 
 /*--------------------------------------------------------------------------------------------------------HERO*/
 .hero {
-    margin: 200px 0;
+    background: url(../img/header.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
     color:#fff;
 }
 .hero hr {
@@ -41,6 +39,13 @@ header {
 .hero .btn:hover {
     background-color: #edce21;
     color:#fff;
+}
+.hero .frase{
+    padding-top: 200px;
+    
+}
+.hero  h1{
+    font-size: 50px;
 }
 
 /* Here starts section About */
