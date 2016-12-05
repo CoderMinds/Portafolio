@@ -1,0 +1,44 @@
+/* Tu CSS va aqui */
+
+header {
+    background: url(../img/header.jpg) no-repeat;
+    background-size: cover;
+}
+.navbar {
+    background: none;
+    border: none;
+}
+/*--------------------------------------------------------------------------------------------------------HEADER*/
+.nav {
+    padding: 0 20px 0 0;
+}
+.navbar a {
+    color:#fff !important;
+}
+.nav li a:hover, .nav li a:focus {
+    font-weight: bold !important;
+}
+.nav li:hover {
+    font-size:18px !important;
+    transition:all 0.5s;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------HERO*/
+.hero {
+    margin: 200px 0;
+    color:#fff;
+}
+.hero hr {
+    width: 30px;
+    border-top:2px solid tomato;
+}
+.hero .btn {
+    background-color: tomato;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.hero .btn:hover {
+    background-color: #edce21;
+    color:#fff;
+}
