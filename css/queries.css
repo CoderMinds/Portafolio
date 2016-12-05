@@ -20,7 +20,22 @@
     }
     .nav {
     padding: 0;
-}
-    
+    }
+    /* Reponsive Services and About */
+    .about {
+    padding: 80px 40px;
+    }
+    .col-md-3 {
+    margin-top: 50px;
+    }
+    .services h3{
+    font-size: 50px;
+    }
+    .services h4{
+    font-size: 30px;
+    }
+    .services p{
+    font-size: 17px;
+    }
     
 }

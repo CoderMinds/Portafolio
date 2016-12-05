@@ -42,3 +42,40 @@ header {
     background-color: #edce21;
     color:#fff;
 }
+
+/* Here starts section About */
+.about {
+    background-color:  tomato; 
+    color: #fff;
+    padding: 20px 0 60px 0;
+}
+
+.about h4{
+    color: #fff;  
+}
+.line1 { 
+    border-top: 2px solid #fff;
+    width: 50px;
+}
+
+/* Here starts section Services */
+.services {
+    margin-top: 60px;
+}
+.services p{
+    color: darkgrey;
+}
+#line2{
+    border-top: 2px solid tomato;
+    width: 50px;
+}
+
+.icon-container {
+    font-size: 60px;
+    color: tomato;
+}
+
+.row {
+    padding-right: 80px; 
+    padding-left: 80px;
+}
